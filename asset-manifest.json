@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/DashboardWhitReactXChakraUI/static/js/main.349e67bf.js",
+    "static/media/background-body-admin.png": "/DashboardWhitReactXChakraUI/static/media/background-body-admin.9a5703c114bec6efe39b.png",
+    "static/media/backgroundSignUp.jpg": "/DashboardWhitReactXChakraUI/static/media/backgroundSignUp.4c6a1e16a24e1d86a8ed.jpg",
+    "static/media/backgroundSign.jpg": "/DashboardWhitReactXChakraUI/static/media/backgroundSign.773739aca441e847ac58.jpg",
+    "static/media/backgroundProfile.jpg": "/DashboardWhitReactXChakraUI/static/media/backgroundProfile.2f00c48d813629f9509c.jpg",
+    "static/media/cardimgfree.jpg": "/DashboardWhitReactXChakraUI/static/media/cardimgfree.8be143cb1748f05438be.jpg",
+    "static/media/billing-background-card.png": "/DashboardWhitReactXChakraUI/static/media/billing-background-card.12071e802769d6f46e3e.png",
+    "static/media/avatar9.png": "/DashboardWhitReactXChakraUI/static/media/avatar9.2db98189f85998b61c6b.png",
+    "static/media/cardimgfree.png": "/DashboardWhitReactXChakraUI/static/media/cardimgfree.4372708864223c779858.png",
+    "static/media/avatar7.png": "/DashboardWhitReactXChakraUI/static/media/avatar7.00e8f4f007f327b73e71.png",
+    "static/media/avatar10.png": "/DashboardWhitReactXChakraUI/static/media/avatar10.1683e1c0cac6f333de9d.png",
+    "static/media/avatar8.png": "/DashboardWhitReactXChakraUI/static/media/avatar8.9719f14554a45416b270.png",
+    "static/media/SidebarHelpImage.png": "/DashboardWhitReactXChakraUI/static/media/SidebarHelpImage.40ef5912be5ef8097186.png",
+    "static/media/ProjectImage3.png": "/DashboardWhitReactXChakraUI/static/media/ProjectImage3.612b1c42b661baf74aea.png",
+    "static/media/ProjectImage1.png": "/DashboardWhitReactXChakraUI/static/media/ProjectImage1.bed72a005437df70012f.png",
+    "static/media/ProjectImage2.png": "/DashboardWhitReactXChakraUI/static/media/ProjectImage2.e33d8e1649b42af9731b.png",
+    "index.html": "/DashboardWhitReactXChakraUI/index.html",
+    "main.349e67bf.js.map": "/DashboardWhitReactXChakraUI/static/js/main.349e67bf.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.349e67bf.js"
+  ]
+}
