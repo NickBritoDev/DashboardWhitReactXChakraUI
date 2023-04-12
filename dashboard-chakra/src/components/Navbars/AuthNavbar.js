@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -89,7 +89,6 @@ export default function AuthNavbar(props) {
         <Button
           fontSize='sm'
           ms='0px'
-          me='0px'
           px='0px'
           me={{ sm: "2px", md: "16px" }}
           color={navbarIcon}
@@ -102,7 +101,6 @@ export default function AuthNavbar(props) {
         <Button
           fontSize='sm'
           ms='0px'
-          me='0px'
           px='0px'
           me={{ sm: "2px", md: "16px" }}
           color={navbarIcon}
@@ -117,7 +115,6 @@ export default function AuthNavbar(props) {
         <Button
           fontSize='sm'
           ms='0px'
-          me='0px'
           px='0px'
           me={{ sm: "2px", md: "16px" }}
           color={navbarIcon}
@@ -177,17 +174,21 @@ export default function AuthNavbar(props) {
           />
         </Box>
         {linksAuth}
-        <Link href='https://creative-tim.com/product/vision-ui-dashboard-chakra'>
+        <Link isExternal
+          target="_blank"
+          rel="noopener noreferrer"
+          href='http://www.grupomaisvalor.com.br/'>
           <Button
             fontSize='xs'
-            variant='brand'
+            bg="#239645"
+            // variant='brand'
             borderRadius='12px'
             px='30px'
             display={{
               sm: "none",
               lg: "flex",
             }}>
-            Free Download
+            Grupo Mais Valor
           </Button>
         </Link>
       </Flex>

@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -62,7 +62,7 @@ var dashRoutes = [
   },
   {
     path: "/rtl-support-page",
-    name: "RTL",
+    name: "rtl",
     rtlName: "آرتيإل",
     icon: <SupportIcon color='inherit' />,
     component: RTLPage,

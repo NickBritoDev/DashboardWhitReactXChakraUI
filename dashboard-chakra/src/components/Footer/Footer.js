@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -45,64 +45,22 @@ export default function Footer(props) {
         &copy; {1900 + new Date().getYear()},{" "}
         <Text as='span'>
           {document.documentElement.dir === "rtl"
-            ? " مصنوع من ❤️ بواسطة"
-            : "Made with ❤️ by "}
+            ?"Developer By"
+            : "Developer By "}
         </Text>
         <Link href='https://www.simmmple.com' target='_blank'>
           {document.documentElement.dir === "rtl"
-            ? " توقيت الإبداعية"
-            : "Simmmple "}
+            ? "Brito"
+            : "Brito "}
         </Link>
         &
         <Link href='https://www.creative-tim.com' target='_blank'>
-          {document.documentElement.dir === "rtl" ? "سيممبل " : " Creative Tim"}
+          {document.documentElement.dir === "rtl" ? "" : " "}
         </Link>
         {document.documentElement.dir === "rtl"
-          ? "للحصول على ويب أفضل"
-          : " for a better web"}
+          ? " With Creative Tim"
+          : " With Creative Tim"}
       </Text>
-      <List display='flex'>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link color='white' fontSize='sm' href='https://www.simmmple.com'>
-            {document.documentElement.dir === "rtl"
-              ? "توقيت الإبداعية"
-              : "Simmmple"}
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link color='white' fontSize='sm' href='https://www.creative-tim.com'>
-            {document.documentElement.dir === "rtl" ? "سيممبل" : "Creative Tim"}
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}>
-          <Link
-            color='white'
-            fontSize='sm'
-            href='https://creative-tim.com/blog'>
-            {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link
-            color='white'
-            fontSize='sm'
-            href='https://www.creative-tim.com/license'>
-            {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
-          </Link>
-        </ListItem>
-      </List>
     </Flex>
   );
 }

@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -22,14 +22,14 @@ import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import AuthLayout from "layouts/Auth.js";
 import AdminLayout from "layouts/Admin.js";
-import RTLLayout from "layouts/RTL.js";
+import rtlLayout from "layouts/rtl.js";
 
 ReactDOM.render(
   <HashRouter>
     <Switch>
       <Route path={`/auth`} component={AuthLayout} />
       <Route path={`/admin`} component={AdminLayout} />
-      <Route path={`/rtl`} component={RTLLayout} />
+      <Route path={`/rtl`} component={rtlLayout} />
       <Redirect from={`/`} to='/admin/dashboard' />
     </Switch>
   </HashRouter>,

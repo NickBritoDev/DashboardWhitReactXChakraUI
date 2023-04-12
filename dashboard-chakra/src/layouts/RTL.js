@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -18,7 +18,7 @@
 
 // Chakra imports
 import { ChakraProvider, Portal, useDisclosure } from "@chakra-ui/react";
-import { RtlProvider } from "components/RTLProvider/RTLProvider";
+import { RTLProvider } from "components/RTLProvider/RTLProvider";
 import Configurator from "components/Configurator/Configurator";
 import Footer from "components/Footer/Footer.js";
 // Layout components
@@ -114,10 +114,10 @@ export default function Dashboard(props) {
   // Chakra Color Mode
   return (
     <ChakraProvider theme={theme} resetCss={false}>
-      <RtlProvider>
+      <RTLProvider>
         <Sidebar
           routes={routes}
-          logoText={"VISION UI FREE"}
+          logoText={"MAIS VALOR"}
           display='none'
           sidebarVariant={sidebarVariant}
           {...rest}
@@ -132,7 +132,7 @@ export default function Dashboard(props) {
           <Portal>
             <AdminNavbar
               onOpen={onOpen}
-              logoText={"VISION UI FREE"}
+              logoText={"MAIS VALOR"}
               brandText={getActiveRoute(routes)}
               secondary={getActiveNavbar(routes)}
               fixed={fixed}
@@ -169,7 +169,7 @@ export default function Dashboard(props) {
             onTransparent={() => setSidebarVariant("transparent")}
           />
         </MainPanel>
-      </RtlProvider>
+      </RTLProvider>
     </ChakraProvider>
   );
 }

@@ -11,7 +11,7 @@ import theme from "theme/themeAuth.js";
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -107,7 +107,7 @@ export default function Pages(props) {
         <Portal containerRef={navRef}>
           <AuthNavbar
             secondary={getActiveNavbar(routes)}
-            logoText='VISION UI FREE'
+            logoText='MAIS VALOR'
           />
         </Portal>
         <Box w='100%'>

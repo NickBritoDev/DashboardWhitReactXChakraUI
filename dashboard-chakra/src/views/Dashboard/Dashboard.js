@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -40,7 +40,7 @@ import {
 	Tr
 } from '@chakra-ui/react';
 // Styles for the circular progressbar
-import medusa from 'assets/img/cardimgfree.png';
+import medusa from 'assets/img/cardimgfree.jpg';
 // Custom components
 import Card from 'components/Card/Card.js';
 import CardBody from 'components/Card/CardBody.js';

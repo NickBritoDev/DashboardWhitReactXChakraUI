@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free Chakra - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 import React from "react";
 // Chakra imports
 import {
@@ -33,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 
 // Assets
-import signInImage from "assets/img/signInImage.png";
+import signInImage from "assets/img/backgroundSign.jpg";
 
 // Custom Components
 import AuthFooter from "components/Footer/AuthFooter";
@@ -69,7 +51,7 @@ function SignIn() {
             mt={{ base: "50px", md: "150px", lg: "160px", xl: "245px" }}
             mb={{ base: "60px", lg: "95px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
-              Nice to see you!
+              Bem Vindo!
             </Heading>
             <Text
               mb='36px'
@@ -77,7 +59,7 @@ function SignIn() {
               color={textColor}
               fontWeight='bold'
               fontSize='14px'>
-              Enter your email and password to sign in
+              Entre com seu email e senha para realizar o login
             </Text>
             <FormControl>
               <FormLabel
@@ -101,7 +83,7 @@ function SignIn() {
                   w={{ base: "100%", md: "346px" }}
                   maxW='100%'
                   h='46px'
-                  placeholder='Your email adress'
+                  placeholder='exemplo@exemplo.com'
                 />
               </GradientBorder>
             </FormControl>
@@ -111,7 +93,7 @@ function SignIn() {
                 fontSize='sm'
                 fontWeight='normal'
                 color='white'>
-                Password
+                Senha
               </FormLabel>
               <GradientBorder
                 mb='24px'
@@ -127,7 +109,7 @@ function SignIn() {
                   w={{ base: "100%", md: "346px" }}
                   maxW='100%'
                   type='password'
-                  placeholder='Your password'
+                  placeholder='*************'
                 />
               </GradientBorder>
             </FormControl>
@@ -141,11 +123,11 @@ function SignIn() {
                 ms='1'
                 fontWeight='normal'
                 color='white'>
-                Remember me
+                Salvar perfil
               </FormLabel>
             </FormControl>
             <Button
-              variant='brand'
+              bg='#239645'
               fontSize='10px'
               type='submit'
               w='100%'
@@ -163,9 +145,9 @@ function SignIn() {
               maxW='100%'
               mt='0px'>
               <Text color={textColor} fontWeight='medium'>
-                Don't have an account?
+                Ainda não tem uma conta?
                 <Link color={titleColor} as='span' ms='5px' fontWeight='bold'>
-                  Sign Up
+                  Cadastre-se
                 </Link>
               </Text>
             </Flex>
@@ -198,14 +180,14 @@ function SignIn() {
             flexDirection='column'
             justifyContent='center'
             alignItems='center'
-            position='absolute'>
+          >
             <Text
               textAlign='center'
               color='white'
               letterSpacing='8px'
               fontSize='20px'
               fontWeight='500'>
-              INSPIRED BY THE FUTURE:
+              New Control Process:
             </Text>
             <Text
               textAlign='center'
@@ -215,7 +197,7 @@ function SignIn() {
               fontWeight='bold'
               bgClip='text !important'
               bg='linear-gradient(94.56deg, #FFFFFF 79.99%, #21242F 102.65%)'>
-              THE VISION UI DASHBOARD
+              DASHBOARD GRUPO MAIS VALOR
             </Text>
           </Box>
         </Box>

@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free Chakra - v1.0.0
+* MAIS VALOR Chakra - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
@@ -27,6 +27,7 @@ export function SidebarHelp(props) {
   const { children, ...rest } = props;
   return (
     <Flex
+      display='none'
       borderRadius='15px'
       flexDirection='column'
       bgImage={SidebarHelpImage}

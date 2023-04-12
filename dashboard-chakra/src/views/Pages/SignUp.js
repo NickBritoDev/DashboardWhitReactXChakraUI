@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Vision UI Free Chakra - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-chakra
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-chakra/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 import React from "react";
 
 // Chakra imports
@@ -41,7 +23,7 @@ import AuthFooter from "components/Footer/AuthFooter";
 import GradientBorder from "components/GradientBorder/GradientBorder";
 
 // Assets
-import signUpImage from "assets/img/signUpImage.png";
+import signUpImage from "assets/img/backgroundSignUp.jpg";
 
 function SignUp() {
   const titleColor = "white";
@@ -79,7 +61,7 @@ function SignUp() {
               lineHeight='39px'
               color='white'
               fontWeight='bold'>
-              Welcome!
+              Bem Vindo!
             </Text>
             <Text
               fontSize='md'
@@ -87,8 +69,7 @@ function SignUp() {
               fontWeight='normal'
               mt='10px'
               w={{ base: "100%", md: "90%", lg: "90%", xl: "80%" }}>
-              Use these awesome forms to login or create new account in your
-              project for free.
+              Use seu email corporativo, nome completo e uma senha segura.
             </Text>
           </Flex>
           <GradientBorder p='2px' me={{ base: "none", lg: "30px", xl: "none" }}>
@@ -109,7 +90,7 @@ function SignUp() {
                 fontWeight='bold'
                 textAlign='center'
                 mb='22px'>
-                Register With
+                Registre-se Com
               </Text>
               <HStack spacing='15px' justify='center' mb='22px'>
                 <GradientBorder borderRadius='15px'>
@@ -185,7 +166,7 @@ function SignUp() {
                 fontWeight='bold'
                 textAlign='center'
                 mb='22px'>
-                or
+                OU
               </Text>
               <FormControl>
                 <FormLabel
@@ -214,7 +195,7 @@ function SignUp() {
                     maxW='100%'
                     h='46px'
                     type='text'
-                    placeholder='Your name'
+                    placeholder='Seu Nome Completo'
                   />
                 </GradientBorder>
                 <FormLabel
@@ -242,7 +223,7 @@ function SignUp() {
                     maxW='100%'
                     h='46px'
                     type='email'
-                    placeholder='Your email address'
+                    placeholder='exemplo@exemplo.com'
                   />
                 </GradientBorder>
                 <FormLabel
@@ -270,7 +251,7 @@ function SignUp() {
                     maxW='100%'
                     h='46px'
                     type='password'
-                    placeholder='Your password'
+                    placeholder='**********'
                   />
                 </GradientBorder>
                 <FormControl display='flex' alignItems='center' mb='24px'>
@@ -283,11 +264,11 @@ function SignUp() {
                     htmlFor='remember-login'
                     mb='0'
                     fontWeight='normal'>
-                    Remember me
+                    Salvar perfil
                   </FormLabel>
                 </FormControl>
                 <Button
-                  variant='brand'
+                  bg='#239645'
                   fontSize='10px'
                   type='submit'
                   w='100%'
@@ -295,7 +276,7 @@ function SignUp() {
                   h='45'
                   mb='20px'
                   mt='20px'>
-                  SIGN UP
+                  INSCREVA-SE
                 </Button>
               </FormControl>
               <Flex
@@ -305,7 +286,7 @@ function SignUp() {
                 maxW='100%'
                 mt='0px'>
                 <Text color={textColor} fontWeight='medium'>
-                  Already have an account?
+                  Você já tem uma conta?
                   <Link
                     color={titleColor}
                     as='span'
@@ -340,7 +321,6 @@ function SignUp() {
             h='1300px'
             bgSize='cover'
             bgPosition='50%'
-            position='absolute'
             display='flex'
             flexDirection='column'
             justifyContent='center'
@@ -352,7 +332,7 @@ function SignUp() {
               letterSpacing='8px'
               fontSize='20px'
               fontWeight='500'>
-              INSPIRED BY THE FUTURE:
+              New Control Process:
             </Text>
             <Text
               textAlign='center'
@@ -362,7 +342,7 @@ function SignUp() {
               fontWeight='bold'
               bgClip='text !important'
               bg='linear-gradient(94.56deg, #FFFFFF 79.99%, #21242F 102.65%)'>
-              THE VISION UI DASHBOARD
+              DASHBOARD GRUPO MAIS VALOR
             </Text>
           </Box>
         </Box>
